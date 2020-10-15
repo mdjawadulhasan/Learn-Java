@@ -53,6 +53,7 @@ public class Table extends JFrame {
         Font f1 = new Font("Arial", Font.BOLD + Font.ITALIC, 20);
 
         cr = new Cursor(Cursor.HAND_CURSOR);
+
         clrBtn = new JButton("Clear");
         clrBtn.setBounds(230, 260, 90, 50);
         clrBtn.setBackground(Color.RED);
